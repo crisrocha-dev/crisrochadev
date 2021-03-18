@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"next dev"
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/crisrocha-dev/crisrochadev#readme",
   "dependencies": {
+    "gray-matter": "^4.0.2",
     "next": "^10.0.9",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
   }
 }
